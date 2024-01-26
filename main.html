@@ -4,30 +4,37 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Accessible Portfolio</title>
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<img src="https://yt3.googleusercontent.com/zi_Nl30_3AClk94-aMAf5gzynzitXvl_L5Fc3Hw_AmKwNoc65zC-Go2_lwD5QOpgrx9SDdKK0Q=s900-c-k-c0x00ffffff-no-rj" height=300>
-	<h1>Mahidhar K</h1>
-	<p>Im Mahidhar who wants to be Junior Jabardasth Mahidhar</p>
-	<nav>
-		<a href="#about">About</a> |
+
+	<nav role="navigation">
+		<a href="#about-me">About Me</a> |
+		<a href="#brief-description">Brief Description</a> |
 		<a href="#skills">Skills</a> |
-		<a href="#projects">Projects</a> |
+		<a href="#hobbies">Hobbies</a>
 	</nav>
-	<ul>
+
+	<section id="about-me">
+		<h1 role="heading">Mahidhar K</h1>
+		<img role="img" src="https://yt3.googleusercontent.com/zi_Nl30_3AClk94-aMAf5gzynzitXvl_L5Fc3Hw_AmKwNoc65zC-Go2_lwD5QOpgrx9SDdKK0Q=s900-c-k-c0x00ffffff-no-rj" alt="Mahidhar's Pic" width="250px">
+	</section>
+
+	<section id="brief-description">
+		<p>I'm very passionate about coding. I am very responsible person and I have a leadership quality.</p>
+	</section>
+
+	<section id="skills">
 		<h3>Skills:</h3>
-		<li>1. HTML</li>
-		<li>2. CSS</li>
-		<li>3. JS</li>
-	</ul>
-	<ol>
-		<h3>Projects:</h3>
-		<li>Project1</li>
-		<li>Project2</li>
-		<li>Project3</li>
-	</ol>
+		<ul role="list">
+			<li role="listitem">HTML</li>
+			<li role="listitem">CSS</li>
+			<li role="listitem">JS</li>
+		</ul>
+	</section>
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
